@@ -1,7 +1,6 @@
 apiVersion: bitnami.com/v1alpha1
 kind: SealedSecret
 metadata:
-  creationTimestamp: null
   name: mysql-credentials
   namespace: default
 spec:
@@ -10,9 +9,7 @@ spec:
     password: AgDZK+Hj9Z4y86NkhX7Zw0Kd+zdK9GuUm9BLd3oaxR5xnTSSAh7uyb481DnuT3kJdT2eeeZhBjHCVKjEbMpDATHdVtiAWSybEzeiQnM6w313+YJWZ4RMcJwNoSseYQQPDF9wgbXRTfrpkP0+h1zIefrUylPbtGkhLTks1Pjklof+WQFACt3DaI9OMORRGYliKFUz/K9kmg0h+lALvy1J7nL32V4MkBp/f4+PFh8HTNFHFfSKyRKe7+UrPxkYpVQqSkDbnnO49ZaVixSCxHlm7UNjY/1u2d/oT7PSfFHFd54RnTIVCR3gt2LhZyCAlnOOAf4TS7geBg86DzlyjuhMXze7tDPlui+Vh6hV7gi/jXJMachkiukMzuzZ6D/eSViOI4o5qlVoZKLuO8hYcUlE8fTyVLuTl5TOFFKwYn7lzCL8gPJLGQZAluBrPFOl7RhOLYS9SvuG61nlS6qlu1PLSpCUJTre/2xLb2AODqzLKebucGYA3EssSQ6dTE0wz0MxgaNKWfdEEkEX6OWzDx/DMNUiFyf7u5H/99bMiFavyRjSnlnPBmfI/5Q/7iIrfJ3s/sksnjIWgIT1xoxu71Vaud2Pm3tJ1eljGonQWTFaJL5TbE922Hzu6eXKDgDWDDTALnbIAHY6Ys4VIhkOCzNrwSpbUeYPKOtN4dPt67U+UKLDYDD+MqRe5CsUB8Ym5DzLMkOCaqkeeO/uW1SGmfdLOYU=
     username: AgBvTm/MzdMJ0bdbUkpYgNOC4KsD7mRt3FNGY6Ho91hU/2C7iaUVw42owZME0fWNQB7O6p3bJ3aGY6KsQaakUsxes8n1cvLI6Zsk7R/gBsn3NI/RojqN/KjAoL9cw/brWWsLLaimA24eV4TgWdNGfaqgcWoH32ku+dS4WyZj3Er2buFcusDo0URMruzcXljaxRjVFbn7J8L54JRReFUrVycxfyoUgg67UzpsiKCnM5y/Ku5K8UObWGHQmJ0u1Eg3ecdgCjnjrc9WB4Ni9o01x0Uuf7W37X5RZ3lK6Y45hocxW0s+B6FMS2vnHPeVjxs7T+3H8HHNtLgjzhwyZhLZ8CkZGTeYteFr8XeK+zi7sJO7blselGNX3CfHL6R0fkm99CrUT3g4iOJMPAkdwRayIZzmN31DV9TBJXft7qeJaNOfR1LNjEHKKGhdNgMZ4/40H1YQ2aqlcaUG+CzsGO9Hwfhbd6CyeKk4A1Ebne4+CzxYWM0/8OWs9c7nxQ518dmVzwtUEEFeqTc4PkXLOBpFri3aztxVvrTGHPOrqOoYjIHGQrB4J2QwaDa/ppZmevDmkmFTGyGO4uPNofFJ3xm2oi7DjsR+ZBBIOxZOr0JHzyQryzWKMcWNDsHzrweppf4qWCu8kvZIuMYtHCQ6KKJVc6L4uanPhFct7HoV/M/RchQSc6pgske02jsCEIxDPuHfi8bpngZfdGHGt/7jAA==
   template:
-    data: null
     metadata:
-      creationTimestamp: null
       name: mysql-credentials
       namespace: default
     type: Opaque
